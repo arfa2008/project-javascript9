@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Collection App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Collection</h1>
+        <form id="recipeForm">
+            <input type="text" id="recipeName" placeholder="Recipe Name" required>
+            <input type="text" id="ingredients" placeholder="Ingredients (comma-separated)" required>
+            <textarea id="instructions" placeholder="Instructions" required></textarea>
+            <input type="file" id="recipeImage" accept="image/*">
+            <div class="button-container">
+                <button type="submit">Add Recipe</button>
+            </div>
+        </form>
+        <ul id="recipeList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

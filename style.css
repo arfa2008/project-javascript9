@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pexels-ella-olsson-572949-1640773.jpg'); /* Update this path */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    color: white; /* Change text color for better readability */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+    height: 100vh; 
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for better text contrast */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px; /* Adjust the max width as needed */
+    width: 100%; /* Full width within the max width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    text-align: center;
+}
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+input, textarea {
+    margin-bottom: 10px; /* Space between inputs */
+    padding: 10px; /* Padding inside inputs */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* No border */
+}
+
+.button-container {
+    margin-top: 10px; /* Add some space above the buttons */
+}
+
+.button-container button {
+    margin-right: 5px; /* Space between buttons */
+    padding: 10px 15px; /* Padding inside buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #28a745; /* Green background color */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button-container button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Recipe list styles */
+#recipeList {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+#recipeList li {
+    margin-bottom: 20px; /* Space between recipes */
+    background-color: rgba(255, 255, 255, 0.1); /* Light background for recipes */
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Edit button styles */
+.edit-btn {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+}
+
+.edit-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Delete button styles */
+.delete-btn {
+    background-color: #dc3545; /* Red background color */
+    color: white; /* White text color */
+}
+
+.delete-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
